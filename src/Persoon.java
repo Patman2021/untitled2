@@ -1,6 +1,4 @@
-package Practicums.Practicums6;
 
-import Practicums.Practicums5.Leerling;
 
 import java.util.ArrayList;
 
@@ -55,6 +53,12 @@ public class Persoon {
                         koper.budget -= spel.huidigeWaarde();
                         return true;}}}
         return false;
+    }
+
+    public ArrayList<Game> bepaalGamesNietInBezit(ArrayList<Game> tK) {
+        for (Game heeftgame : mijnGames)
+            tK.remove(heeftgame);
+        return tK;
     }
 
     public  String toString(){

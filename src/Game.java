@@ -1,5 +1,3 @@
-package Practicums.Practicums6;
-
 import javax.swing.table.TableRowSorter;
 import java.time.LocalDate;
 import java.util.Objects;
